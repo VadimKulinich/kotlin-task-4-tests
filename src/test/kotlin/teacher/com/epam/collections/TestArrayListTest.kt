@@ -49,7 +49,7 @@ class TestArrayListTest {
         list.add(1, "Vanessa")
         list.add(2, "Amanda")
         assertEquals("Amanda", list.removeAt(2))
-        assertTrue(list.size == 3) //todo correct value 2
+        assertTrue(list.size == 2) //todo correct value 2
     }
 
     @Test(expected = IndexOutOfBoundsException::class)
