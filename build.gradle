@@ -11,5 +11,5 @@ repositories {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
 
-    testCompile group: 'junit', name: 'junit', version: junitVersion
+    testImplementation group: 'junit', name: 'junit', version: junitVersion
 }
