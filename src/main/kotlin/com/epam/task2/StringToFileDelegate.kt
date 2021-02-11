@@ -20,6 +20,7 @@ class StringToFileDelegate(private val file: File) {
 
     operator fun setValue(thisRef: Any?, property: KProperty<*>, value: String) {
         println("save to file")
+        cache = null
         file.writeText(value)
     }
 }
